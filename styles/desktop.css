@@ -1,0 +1,22 @@
+.faqBox{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0;
+    width: 1000px;
+    height: 550px;
+    margin-top: 0;
+}
+
+.faqBox-ilustration img:first-child{
+    width: 400px;
+    height: 500px;
+    left: calc(50% - 335px);
+    top: 109px;
+    z-index: 1;
+}
+/* 
+.faqBox-ilustration img:last-child{
+    left: calc(50% - 98px);               
+    width: 200px;
+    height: 90px;
+    z-index: 0;
+} */
