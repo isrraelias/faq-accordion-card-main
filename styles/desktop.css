@@ -35,7 +35,7 @@
 
 .faqBox-ilustration picture:nth-child(3){
     position: absolute  ;
-    width: 950px;
+    width: 460px;
     height: 625px;
     left: calc(50% - 250px);
     top: 0px;  
@@ -48,5 +48,38 @@
     width: 1041px;
     height: 1215px;
     top: -385px;
-    right: calc(50% + 28px);
+    right: calc(50% - 215px);
+}
+
+.faqBox-content{
+    align-items: flex-start;
+    height: 470px;
+    width: 430px;
+    margin-left: 40px;
+    margin-top: 77px;
+}
+
+.faqBox-content .faqBox-content--title{
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+.faqBox-content .faqBox-content--questions{
+    justify-content: space-evenly;
+    width: 365px;
+    height: 665px;
+}
+
+.question-content summary{
+    font-size: 1.6rem;
+}
+
+.question-content summary:hover{
+    color: var(--soft-red);
+}
+
+.question-content[open] .answer-question{
+    width: auto;
+    font-size: 1.35rem;
+    line-height: 20px;
 }
