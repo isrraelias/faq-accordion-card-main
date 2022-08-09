@@ -36,7 +36,7 @@ main{
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(var(--Soft-violet), var(--Soft-blue)) ;
+    background: linear-gradient(var(--Soft-violet), var(--Soft-blue) 154%) ;
    
 }
 
@@ -48,6 +48,7 @@ main{
    height: 500px;
    border-radius: 25px;
    background: white;
+   box-shadow: 3px 31px 36px -13px rgba(0,0,0,0.41);
 }
 
 .faqBox-ilustration{
