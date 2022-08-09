@@ -56,21 +56,36 @@ main{
     width: auto;
 }
 
-.faqBox-ilustration img:first-child{
+.faqBox-ilustration picture:first-child{
     position: absolute;
-    left: calc(50% - 98px);
-    top: -103px;
+    left: calc(50% - 111px);
+    top: -100px;
     width: 200px;
     height: 180px;
     z-index: 1;
 }
 
-.faqBox-ilustration img:last-child{
-    position: absolute  ;
-    left: calc(50% - 98px);               
+.faqBox-ilustration picture:first-child img{
+    width: 220px;
+}
+
+.faqBox-ilustration .prueba
+{
+    display: none;
+}
+
+.faqBox-ilustration picture:nth-child(3){
+    position: relative  ;
+    left: calc(50% - 109px);
+    top: 2px;               
     width: 200px;
     height: 90px;
     z-index: 0;
+}
+
+.faqBox-ilustration picture:nth-child(3) img{
+    width: 218px;
+    height: 94px;
 }
 
 .faqBox-content {

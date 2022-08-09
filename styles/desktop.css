@@ -9,14 +9,13 @@
 .faqBox-ilustration img:first-child{
     width: 400px;
     height: 500px;
-    left: calc(50% - 335px);
-    top: 109px;
+    left: calc(50% - 320px);
+    top: 58px;
     z-index: 1;
 }
-/* 
+
 .faqBox-ilustration img:last-child{
-    left: calc(50% - 98px);               
-    width: 200px;
-    height: 90px;
-    z-index: 0;
-} */
+    left: calc(50% - 303px);               
+    width: 400px;
+    height: 250px;
+} 
