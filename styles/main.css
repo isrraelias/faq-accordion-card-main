@@ -37,7 +37,7 @@ main{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(var(--Soft-violet), var(--Soft-blue)) ;
-    
+   
 }
 
 .faqBox{
@@ -62,14 +62,14 @@ main{
     top: -100px;
     width: 200px;
     height: 180px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .faqBox-ilustration picture:first-child img{
     width: 220px;
 }
 
-.faqBox-ilustration .prueba
+.faqBox-ilustration .ilustration-box
 {
     display: none;
 }
@@ -80,7 +80,7 @@ main{
     top: 2px;               
     width: 200px;
     height: 90px;
-    z-index: 0;
+    z-index: 1;
 }
 
 .faqBox-ilustration picture:nth-child(3) img{

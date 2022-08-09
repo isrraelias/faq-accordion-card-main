@@ -2,20 +2,51 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0;
     width: 1000px;
-    height: 550px;
+    height: 625px;
     margin-top: 0;
 }
 
-.faqBox-ilustration img:first-child{
-    width: 400px;
-    height: 500px;
-    left: calc(50% - 320px);
-    top: 58px;
+.faqBox-ilustration picture:first-child{
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 83px;
+    width: 449px;
+    height: 453px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.faqBox-ilustration picture:first-child img{
+    position: absolute;
+   width: 545px;
+   height: 453px;
+   left: calc(50% - 320px);
+}
+
+.faqBox-ilustration .ilustration-box
+{
+    display: initial;
+    position: absolute;
+    left: calc(50% - 353px);
+    top: 262px;
+    width: 220px;
+    z-index: 3;
+}
+
+.faqBox-ilustration picture:nth-child(3){
+    position: absolute  ;
+    width: 950px;
+    height: 625px;
+    left: calc(50% - 250px);
+    top: 0px;  
+    overflow: hidden;             
     z-index: 1;
 }
 
-.faqBox-ilustration img:last-child{
-    left: calc(50% - 303px);               
-    width: 400px;
-    height: 250px;
-} 
+.faqBox-ilustration picture:nth-child(3) img{
+    position: absolute;
+    width: 1041px;
+    height: 1215px;
+    top: -385px;
+    right: calc(50% + 28px);
+}
